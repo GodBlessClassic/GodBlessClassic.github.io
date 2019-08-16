@@ -434,4 +434,8 @@ img::-moz-selection {
     height:407px;
 }
 }
-
+@media screen and (max-width: 1170px){
+.about{
+        display: none !important;
+    }
+}
