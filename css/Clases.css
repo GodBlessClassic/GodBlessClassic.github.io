@@ -32,13 +32,16 @@ color:#9482CA}
 .wr-warrior{background-position:-324px 0;
 color:#C79C6E}
 #Clases{
+    max-height: 470px;
     float: right; 
     width: 220px;
     height: 470px;
-    position: sticky;
-    margin-right: 150px;
-    margin-top: -800px;
     background-color: rgba(0, 0, 0, 0.5);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+.wow-recruit {
+    
+    max-height: 470px;
 }
