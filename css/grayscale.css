@@ -216,7 +216,7 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("https://cdn.discordapp.com/attachments/552864304961945639/611289221285675033/Wow-cthun.png") no-repeat bottom center scroll;
+  background: url("../img/Header2.jpg") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -360,25 +360,78 @@ img::-moz-selection {
   background: transparent;
 }
 #about{
-    color: white;
-    background-color: black;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 200px 0;
+  text-align: center;
+  color: white;
+  background: url("../img/Wallpaper2.jpg") no-repeat bottom center scroll;
+  background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background: url("../img/Wallpaper1.jpg") no-repeat bottom scroll;
-  height: 717px;
 }
 #contact{
   background: url("../img/applys.jpg") no-repeat center scroll;
   height: 717px;
 }
-#foro{
-  background: url("../img/foro1.jpg") no-repeat  center scroll;
+#discord{
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 200px 0;
+  text-align: center;
+  color: white;
+  background: url("../img/Wallpaper3.jpg") no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #foot{
   background: url("") no-repeat top right scroll;
   height: 100px;
 }
+@media screen and (min-width: 1005px)and (max-width: 1155px) {
+    #Applys {
+    float: center;
+    width: 750px; 
+    height:407px;
+}
+}
+@media screen and (min-width: 1156px)and (max-width: 1205px) {
+    #Applys {
+    float: center;
+    width: 950px; 
+    height:407px;
+}
+}
+@media screen and (max-width: 1175px) {
+    #Clases {
+        
+        margin-top:-500px;
+    }
+}
 
+@media screen and (max-width: 1005px) {
+    #Clases {
+        display: none !important;
+
+    }
+}
+@media screen and (min-width: 1375px) {
+    #Clases {
+        margin-top:-50px;
+    }
+}
+@media screen and (min-width: 1175px) {
+    #Applys {
+    float: left; 
+    width: 850px;
+    height:407px;
+}
+}
 
