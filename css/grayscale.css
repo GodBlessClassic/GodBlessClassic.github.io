@@ -198,8 +198,7 @@ a:focus, a:hover {
   #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    background: url("../img/footerbg1.png") no-repeat top left scroll;
+    background-color: rgba(0, 0, 0, 0.3);
   }
   #mainNav .nav-link.active {
     outline: none;
@@ -279,7 +278,8 @@ a:focus, a:hover {
 
 .download-section {
   color: white;
-  background: url("https://i.imgur.com/Srrtd2k.jpg") bottom scroll;
+    height:717px;
+  background: url("../img/WallpaperApplys.jpg") bottom scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -360,13 +360,14 @@ img::-moz-selection {
   background: transparent;
 }
 #about{
-    -webkit-background-size: cover;
+    color: white;
+    background-color: black;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: center;
-  background: url("https://pixelz.cc/wp-content/uploads/2018/10/world-of-warcraft-the-dark-portal-uhd-4k-wallpaper.jpg")  no-repeat center scroll;
-  height: 600;
-    width: 100%;
+  background-size: cover;
+  background: url("/wowascent/img/Wallpaper1.jpg") no-repeat bottom scroll;
+  height: 717px;
 }
 #contact{
   background: url("../img/applys.jpg") no-repeat center scroll;
@@ -379,3 +380,5 @@ img::-moz-selection {
   background: url("") no-repeat top right scroll;
   height: 100px;
 }
+
+

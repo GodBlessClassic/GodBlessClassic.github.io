@@ -1,0 +1,44 @@
+
+.wr-clear{float:none;clear:both}
+.wr-message{margin-bottom:10px}
+.wr-container{font-weight:bold;font-size:0.9em;list-style:none;padding:0;margin:0}
+.wr-item{display:block;padding:5px;border-bottom:1px solid #ddd;float:left;width:100%}
+.wr-left{display:block;float:left;width:36px;height:38px;text-align:center}
+.wr-right{display:block;margin-left:41px}
+.wr-class-text{display:block;float:left;margin-left:5px}
+.wr-status{display:block;text-align:right}
+.wr-note{margin-top:5px;margin-left:5px;display:block;font-weight:normal;font-style:italic}
+.wr-status3{color:#FF420E}
+.wr-status2{color:#FFD320}
+.wr-status1{color:#1EF1A2}
+.wr-note{color:#cee683}
+.wr-icon{vertical-align:middle;width:36px;height:36px;background-image:url(../img/class-sprite-36.jpg);border-radius:4px;box-shadow:0 0 3px #000,inset 0 0 5px #ddd;border:1px solid #aaa}
+.wr-druid{background-position:-36px 0;
+color:#FF7D0A}
+.wr-hunter{background-position:-72px 0;
+color:#ABD473}
+.wr-mage{background-position:-108px 0;
+color:#69CCF0}
+.wr-paladin{background-position:-144px 0;
+color:#F58CBA}
+.wr-priest{background-position:-180px 0;
+color:#dedede;}
+.wr-rogue{background-position:-216px 0;
+color:#FFF569}
+.wr-shaman{background-position:-252px 0;
+color:#2459FF}
+.wr-warlock{background-position:-288px 0;
+color:#9482CA}
+.wr-warrior{background-position:-324px 0;
+color:#C79C6E}
+#Clases{
+    float: right; 
+    width: 220px;
+    height: 470px;
+    position: sticky;
+    margin-right: 150px;
+    margin-top: -800px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
