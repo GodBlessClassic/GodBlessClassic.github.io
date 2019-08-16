@@ -366,7 +366,7 @@ img::-moz-selection {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background: url("/wowascent/img/Wallpaper1.jpg") no-repeat bottom scroll;
+  background: url("../img/Wallpaper1.jpg") no-repeat bottom scroll;
   height: 717px;
 }
 #contact{
