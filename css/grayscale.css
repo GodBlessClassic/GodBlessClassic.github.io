@@ -424,7 +424,7 @@ img::-moz-selection {
 }
 @media screen and (min-width: 1375px) {
     #Clases {
-        margin-top:-50px;
+        margin-top:-100px;
     }
 }
 @media screen and (min-width: 1175px) {
